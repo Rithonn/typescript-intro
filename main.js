@@ -38,3 +38,8 @@ function greeterClasses(personClass) {
 var userClass = new Student("Thomas", "M", "McAdams");
 console.log(userClass);
 console.log(greeterClasses(userClass));
+//-----------------------------String with expression insertions---------------------------------------
+var aFullName = "Bobby Hendrix";
+var age = 98;
+var sentence = "Hello there my name is " + aFullName + ". \nI'll be " + (age + 1) + " years old next month.";
+console.log(sentence);

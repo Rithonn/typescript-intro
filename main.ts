@@ -60,3 +60,18 @@ let userClass = new Student("Thomas","M","McAdams")
 
 console.log(userClass);
 console.log(greeterClasses(userClass))
+
+
+//-----------------------------String with expression insertions---------------------------------------
+
+let aFullName: string = "Bobby Hendrix";
+let age: number = 98;
+//Can create new lines with the ` insertion which can be nice.
+let sentence: string = `Hello there my name is ${aFullName}. 
+I'll be ${age + 1} years old next month.`;
+console.log(sentence);
+
+//Typescript allows for the use of different kinds of variable declarations
+//With this you are able to now use var which is much better.
+
+//---------------------------------------------------------------------
